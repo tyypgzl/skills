@@ -1,0 +1,13 @@
+{
+  "name": "tguzeldev-skills",
+  "description": "Dart/Flutter development skills for Claude Code. Includes pub.dev package documentation fetcher and more.",
+  "version": "1.0.0",
+  "author": {
+    "name": "tyypgzl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyypgzl/skills"
+  },
+  "license": "MIT"
+}
