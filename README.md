@@ -17,23 +17,32 @@ Fetches Dart/Flutter package documentation from pub.dev and GitHub. Claude autom
 
 ## Installation
 
-### 1. Add the marketplace
+### Option 1: Claude Code CLI
+
+1. Open Claude Code in your terminal:
+
+```bash
+claude
+```
+
+2. Add the marketplace:
 
 ```shell
 /plugin marketplace add tyypgzl/skills
 ```
 
-### 2. Install the plugin
+3. Install the plugin:
 
 ```shell
 /plugin install tguzeldev-skills@tguzeldev-skills
 ```
 
-### Alternative: Local development
+### Option 2: OpenSkills
 
-```bash
-git clone https://github.com/tyypgzl/skills.git
-claude --plugin-dir ./skills
+You can also install using [OpenSkills](https://www.npmjs.com/package/openskills) with the GitHub repository:
+
+```
+https://github.com/tyypgzl/skills/
 ```
 
 ## Plugin Structure
