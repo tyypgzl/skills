@@ -39,10 +39,10 @@ claude
 
 ### Option 2: OpenSkills
 
-You can also install using [OpenSkills](https://www.npmjs.com/package/openskills) with the GitHub repository:
+You can also install using [OpenSkills](https://www.npmjs.com/package/openskills):
 
-```
-https://github.com/tyypgzl/skills/
+```bash
+npx openskills install tyypgzl/skills
 ```
 
 ## Plugin Structure
