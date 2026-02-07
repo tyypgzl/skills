@@ -1,6 +1,6 @@
 # tguzeldev-skills
 
-Claude Code plugin for Dart/Flutter development.
+Claude Code plugin marketplace for Dart/Flutter development.
 
 ## Skills
 
@@ -17,15 +17,19 @@ Fetches Dart/Flutter package documentation from pub.dev and GitHub. Claude autom
 
 ## Installation
 
-### From GitHub (marketplace)
+### 1. Add the marketplace
 
-Add this repository as a plugin marketplace, then install:
-
-```bash
-claude /plugin install tguzeldev-skills
+```shell
+/plugin marketplace add tyypgzl/skills
 ```
 
-### Local development
+### 2. Install the plugin
+
+```shell
+/plugin install tguzeldev-skills@tguzeldev-skills
+```
+
+### Alternative: Local development
 
 ```bash
 git clone https://github.com/tyypgzl/skills.git
@@ -37,6 +41,7 @@ claude --plugin-dir ./skills
 ```
 .claude-plugin/
   plugin.json          # Plugin manifest
+  marketplace.json     # Marketplace catalog
 skills/
   pub-docs/
     SKILL.md           # Skill definition
