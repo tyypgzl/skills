@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Dart/Flutter development skills for Claude Code",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -15,16 +15,30 @@
         "repo": "tyypgzl/skills"
       },
       "description": "Dart/Flutter development skills for Claude Code. Includes pub.dev package documentation fetcher and more.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "tyypgzl"
       },
       "homepage": "https://github.com/tyypgzl/skills",
       "repository": "https://github.com/tyypgzl/skills",
       "license": "MIT",
-      "keywords": ["dart", "flutter", "pub.dev", "documentation"],
+      "keywords": [
+        "dart",
+        "flutter",
+        "pub.dev",
+        "documentation"
+      ],
       "category": "development",
-      "tags": ["dart", "flutter", "pub-dev", "package-docs"]
+      "tags": [
+        "dart",
+        "flutter",
+        "pub-dev",
+        "package-docs"
+      ],
+      "skills": [
+        "pub-docs",
+        "dart-cli"
+      ]
     }
   ]
 }
